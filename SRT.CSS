@@ -1,0 +1,130 @@
+.location {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.HEADING {
+    color: black;
+
+}
+
+.pit {
+    background-color: black;
+}
+
+.MOGU {
+    padding: 0PX;
+    justify-content: LEFT;
+
+}
+
+.SRTTEXT {
+    color: black;
+    height: 10px;
+}
+
+.SRTB {
+    color: blue;
+}
+
+.pp {
+    align-items: center;
+}
+
+.textup{
+    height: 300px;
+    width: 500px;
+}
+.MAINTEXT{
+    position: relative;
+    left: 240px;
+}
+#MAINTEXT{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid seashell;
+    position: relative;
+    left: 340px;
+    
+}
+#MAINTEXT {
+    padding: 10px;
+    border: 2PX solid transparent; /* Transparent border to maintain space */
+    position: relative;
+    display: inline-block;
+}
+
+/* Pseudo-element for animated border */
+#MAINTEXT::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    border: 7px solid;
+    border-color: black transparent transparent transparent; /* Initial color */
+    animation: blackWhiteLoader 2s linear infinite; /* Apply animation */
+}
+
+/* Keyframes for loader-like animation */
+@keyframes blackWhiteLoader {
+    0% {
+        border-color: black transparent transparent transparent;
+    }
+    25% {
+        border-color: black black transparent transparent;
+    }
+    50% {
+        border-color: black black black transparent;
+    }
+    75% {
+        border-color: black black black black;
+    }
+    100% {
+        border-color: white transparent transparent transparent;
+    }
+}
+.myfont{
+    color: #d5e6d9;
+}
+.location {
+    padding: 10px;
+    border: 2PX solid transparent; /* Transparent border to maintain space */
+    position: relative;
+    left: 400px;
+    display: inline-block;
+}
+
+/* Pseudo-element for animated border */
+.location::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    border: 5px solid;
+    border-color: black transparent transparent transparent; /* Initial color */
+    animation: blackWhiteLoader 4s linear infinite; /* Apply animation */
+}
+
+/* Keyframes for loader-like animation */
+@keyframes blackWhiteLoader {
+    0% {
+        border-color: black transparent transparent transparent;
+    }
+    25% {
+        border-color: black black transparent transparent;
+    }
+    50% {
+        border-color: black black black transparent;
+    }
+    75% {
+        border-color: black black black black;
+    }
+    100% {
+        border-color: white transparent transparent transparent;
+    }
+}
